@@ -1,0 +1,130 @@
+body {
+    display: flex;
+
+    margin: 0;
+    user-select: none;
+
+    color: #FFF;
+    font-family: Arial;
+    
+    background: #212529;
+}
+
+.sidebar {
+    display: flex;
+    width: fit-content;
+    height: 100%;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+    border-right: 0.5px solid #868E96;
+    background: #343A40;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.sidebar .logo {
+    display: flex;
+    padding-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+
+    color: #FFF;
+
+    font-size: 24px;
+    font-weight: 700;
+
+    border-bottom: 2px solid #FFF;
+}
+
+.sidebar .item {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 5px;
+    align-self: stretch;
+
+    border-radius: 15px;
+    border-bottom: 0.5px solid #ADB5BD;
+    background: #868E96;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.sidebar .item span {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sidebar .item:hover {
+    background: #ADB5BD;
+}
+
+.login_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.login {
+    display: flex;
+    width: 325px;
+    padding: 20px 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    border-radius: 15px;
+    background: #343A40;
+}
+
+.login .title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.login input {
+    display: flex;
+    padding: 15px 10px;
+    align-items: flex-start;
+    align-self: stretch;
+
+    border: none;
+    outline: none;
+
+    color: #FFF;
+
+    border-radius: 10px;
+    background: #868E96;
+}
+.login input::placeholder {color: #CED4DA;}
+
+.login .description {
+    color: #868E96;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.login button {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+
+    border: none;
+    outline: none;
+
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+
+    border-radius: 10px;
+    background: #1864AB;
+}
+.login button:hover {background: #1971C2;}
