@@ -39,6 +39,27 @@ body {
     border-bottom: 2px solid #FFF;
 }
 
+.sidebar .item input {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    align-self: stretch;
+
+    border: none;
+    outline: none;
+
+    color: #FFF;
+
+    border-radius: 15px;
+    background: transparent;
+}
+
+.sidebar .item input::placeholder {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .sidebar .item {
     display: flex;
     padding: 10px;
@@ -58,9 +79,8 @@ body {
     font-weight: 400;
 }
 
-.sidebar .item:hover {
-    background: #ADB5BD;
-}
+.sidebar .item:hover {background: #ADB5BD;}
+
 
 .login_page {
     display: flex;
